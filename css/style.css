@@ -47,6 +47,7 @@ button {
 
 .page-header {
     border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .page-navigation {
@@ -93,6 +94,7 @@ margin-right: 76px;
     display: flex;
     gap: 40px;
     text-decoration: none;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
 .contact:hover {
@@ -117,7 +119,7 @@ margin-right: 76px;
 }
 
 .menu-list-item {
-    color:#2E2F42;
+    color: #404bbf;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-style: normal;
@@ -127,6 +129,8 @@ margin-right: 76px;
     display: flex;
     gap: 40px;
     padding: 24px 0;
+    position: relative;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
 .page {
@@ -145,6 +149,15 @@ margin-right: 76px;
 .first-section {
     background-color:#2E2F42;
     padding: 188px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-section/people-office.jpg);
+    max-width: 1440px; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover;
+}
+
+.first-section-container {
+    
 }
 
 .first-title {
