@@ -132,22 +132,23 @@ margin-right: 76px;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+
 .element {
     position: relative;
     color: #404bbf;
-    }
-
-.element::after {
-        content: "";
-        position: absolute;
-        left: 0;
-        bottom: -1px;
-        display: block;
+  }
   
-        bottom: -1px;
-        border-radius: 2px;;
-        background-color: #404bbf;
-}   
+  .element::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    display: block;
+    height: 4px;
+    width: 100%; /* Ширина псевдоелемента */
+    border-radius: 2px;
+    background-color: #404bbf;
+  }
 
 
 .page {
