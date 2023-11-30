@@ -189,7 +189,7 @@ margin-right: 76px;
     margin-left: auto; 
 }
 
-.bottom-first-title {
+.button-first-title {
     background-color: #4d5ae5;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -208,11 +208,11 @@ margin-right: 76px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.bottom-first-title:hover {
+.button-first-title:hover {
     background-color: #404BBF;
 }
 
-.bottom-first-title:focus {
+.button-first-title:focus {
     background-color: #404BBF;
 }
 
@@ -234,7 +234,7 @@ margin-right: 76px;
     background-color: #f4f4fd;
     border-radius: 4px; 
     margin-bottom: 8px; 
-    
+
 }
 
 .fourth-section-title {
