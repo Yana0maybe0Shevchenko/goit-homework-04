@@ -443,6 +443,19 @@ margin-right: 76px;
 
 }
 
+.container-footer {
+    width: 1158px;
+    /* object-fit: cover; */
+    padding: 0 15px;
+    margin: 0 auto;
+    display: flex;
+    align-items: baseline;
+}
+
+.container-footer-info {
+    margin-right: 120px
+}
+
 .logo-footer {
     color:#4d5ae5;
     font-family: "Raleway", sans-serif;
@@ -469,6 +482,25 @@ margin-right: 76px;
     max-width: 264px;
 }
 
+.second-paragraph-footer {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#FFFFFF;
+    margin-bottom: 16px; 
+}
+
+.social-list-footer {
+    display: flex; 
+    gap: 16px;
+}
+
+.social-item-footer {
+    width: 40px; 
+    height: 40px; 
+    
+}
 
 /* blocks */
 
@@ -479,6 +511,7 @@ margin-right: 76px;
     padding: 0 15px;
     margin: 0 auto;
 }
+
 
 .visually-hidden {
     position: absolute;
