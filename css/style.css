@@ -189,7 +189,7 @@ margin-right: 76px;
     margin-left: auto; 
 }
 
-.button-first-title {
+.bottom-first-title {
     background-color: #4d5ae5;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -205,25 +205,36 @@ margin-right: 76px;
     border-radius: 4px;
     margin-right: auto; 
     margin-left: auto; 
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button-first-title:hover {
+.bottom-first-title:hover {
     background-color: #404BBF;
 }
 
-.button-first-title:focus {
+.bottom-first-title:focus {
     background-color: #404BBF;
 }
 
 /* Second Section */
-
-
 .section-section {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42 ;
     padding: 120px 0;
+}
+
+
+.icons-section-second {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px; 
+    margin-bottom: 8px; 
+    
 }
 
 .fourth-section-title {
